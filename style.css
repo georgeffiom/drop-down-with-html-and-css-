@@ -1,0 +1,62 @@
+*{
+  margin:0;
+  padding: 0;
+}
+body{
+  background-image: url(nip.jpg);
+  background-size: cover;
+}
+header{
+  width: 100%;
+  height: 50px;
+  background:inherit
+}
+header p{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  line-height: 40px;
+  padding: 15px 30px;
+  float: left;
+  color: #ffffff;
+  text-decoration: overline;
+}
+header nav ul{
+  float: left;
+}
+
+header nav ul li{
+  list-style: none;
+  float: left;
+  position: relative;
+  padding: 15px 20px;
+}
+header nav ul li a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+
+}
+header nav ul li ul{
+  position: absolute;
+  display: none;
+  background: transparent;
+  border-radius: 5px;
+
+}
+header nav ul li:hover ul{
+
+  display: block;
+
+}
+header nav ul li ul li a {
+padding: 8px 14px;
+color: #ffffff;
+}
+
+header nav ul li ul li a:hover{
+ background-color: rgb(24, 26, 25);
+  
+}
+header nav ul li ul li{
+  width: 150px;
+}
